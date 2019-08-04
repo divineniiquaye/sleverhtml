@@ -10,7 +10,7 @@ A Lightweight Framework based on Javascript built for rapid development
 Lightning Fast Framework
 ------------------------
 
-With low footprint and compatible with [Node Js](https://npm.org/) and [Ruby](https://www.ruby-lang.org/en/), the framework could be your favourite framework.
+With low footprint and compatible with [Node Js](hhttps://nodejs.org/) and [Ruby](https://www.ruby-lang.org/en/), the framework could be your favourite framework.
 
 -   [Try it Now](#get-it-now)
 
