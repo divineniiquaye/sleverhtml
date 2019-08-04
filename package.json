@@ -1,0 +1,47 @@
+{
+  "name": "slever-html",
+  "version": "0.1.1",
+  "description": "A Lightweight Framework based on Javascript built for rapid development",
+  "main": "js/template.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biustudio/sleverhtml.git"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "nodejs",
+    "angular lightweight",
+    "vuejs lightweight",
+    "react lightweight",
+    "javascript",
+    "biurad",
+    "template",
+    "view",
+    "lightweight",
+    "web components",
+    "framework"
+  ],
+  "author": "Divine Niiquaye <hello@biuhub.net> (https://biurad.ml)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/biustudio/sleverhtml/issues"
+  },
+  "homepage": "https://github.com/biustudio/sleverhtml/",
+  "dependencies": {
+    "jsdom": "^15.1.0",
+    "cssnano": "^4.1.10",
+    "bluebird": "^3.5.4",
+    "commander": "^2.20.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "tap-min": "^2.0.0",
+    "tape": "^4.10.1",
+    "terser": "^3.17.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "terser js/slever.js -c -m --keep-fnames --source-map includeSources,url=slever.min.js.map -o build/slever.min.js && terser js/slever.js js/template.js -c -m --keep-fnames --source-map includeSources,url=template.min.js.map -o build/template.min.js"
+  }
+}
